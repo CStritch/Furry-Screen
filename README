@@ -4,8 +4,12 @@ Dependencies:
 
 Tasks:
 - Furry border
-- Furry control for video player
-- Input box for Youtube url
+- Custom control for video player
+- Input box for Youtube url to look better/more UI friendly
+- - Input box for URL to also include local videos
+- CSS styling
+- Better footer
+- art assets!
 
 
 
