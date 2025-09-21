@@ -7,10 +7,20 @@
         <script src="script.js" defer></script>
     </head>
     <body>
-        <h1>Furry Screen</h1>
-        <p>This is a sample paragraph to demonstrate the HTML structure.</p>
-        <input type="text" placeholder="Enter text here">
-        <button id="myButton">Click Me</button>
+        <div class="main-content">
+            <h1>Furry Screen</h1>
+            <p>This is a sample paragraph to demonstrate the HTML structure.</p>
+            <input id="urlInput" placeholder="Enter URL here">
+            <button id="urlButton">Click Me</button>
+        </div>
+        <div class="video-container">
+            <iframe id="urlVideo" width="560" height="315" src="https://www.youtube.com/embed/FjrJ2DJN_pA?si=OebniODDQQQjnqrl" 
+                title="YouTube video player" frameborder="200px" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            
+        </div>
     </body>
     <footer>
         <p>&copy; 2025 Obbl Otter, William Dingo</p> 
